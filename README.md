@@ -6,31 +6,31 @@ The purpose of this analysis it to analyze the current trends of the Japanese Ye
 
 ### Actual Settlements v. Trends
 
-![Settlement v. Trend](images/Settle_v_Trend.png)
+![Settlement v. Trend](images/Settle_v_Trend.PNG)
 
  - Plotting the historical data reveals some variance around the trend which may present trading opportunities.  Overall, there is an increasing trend in the value of the Yen compared to the USD.
 
 ### ARMA Model Forecast
 
-![ARMA Forecast](images/ARMA_Yield_Forecast.png)
+![ARMA Forecast](images/ARMA_Yield_Forecast.PNG)
 
-![ARMA Results](images/ARMA_Results.png)
+![ARMA Results](images/ARMA_Results.PNG)
 
  - The ARMA model does not appear to be a good fit to forecast the data given the P-Value is greater than 0.05 for each lag test.  The high AIC and BIC values also support this.
 
  ### ARIMA Forecast
 
-![ARIMA Forecast](images/ARIMA_Yield_Forecast.png)
+![ARIMA Forecast](images/ARIMA_Yield_Forecast.PNG)
 
-![ARMA Results](images/ARIMA_Results.png)
+![ARMA Results](images/ARIMA_Results.PNG)
 
  - The ARIMA model shows an anticipated increase in the value of the Yen; however, given the P value results are greater than 0.05x the model does not appear to be good fit for the data. 
 
  ### GARCH Volatility Forecast
 
-![GARCH Forecast](images/GARCH_Forecast.png)
+![GARCH Forecast](images/GARCH_Forecast.PNG)
 
- ![GARCH Results](images/GARCH_Results.png)
+ ![GARCH Results](images/GARCH_Results.PNG)
 
   - The GARCH model indicates future volatility in the Yen over the 5 day horizon.
   - GARCH model is a more statistically significant model based on the data because the P value is less than 0.05 based on the lag calculations.
@@ -42,9 +42,9 @@ The purpose of this analysis it to analyze the current trends of the Japanese Ye
 
  ## Linear Regression
 
-![Best Fit Line](images/Best_Fit_Line_LR.png)
+![Best Fit Line](images/Best_Fit_Line_LR.PNG)
 
- ![Return v. Predicted Return](images/Return_Predicted_Return_Plot.png)
+ ![Return v. Predicted Return](images/Return_Predicted_Return_Plot.PNG)
 
   - Out-of-Sample Root Mean Squared Error (RMSE): 0.41521675083603804
   - In-sample Root Mean Squared Error (RMSE): 0.5658708047560468
